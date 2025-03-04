@@ -13,11 +13,10 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "vitest": "^3.0.7"
-  },
-  "dependencies": {
+    "@vitest/coverage-v8": "^3.0.7",
     "husky": "^9.1.7",
-    "lint-staged": "^15.4.3"
+    "lint-staged": "^15.4.3",
+    "vitest": "^3.0.7"
   },
   "lint-staged": {
     "*.js": "vitest related"
