@@ -1,0 +1,25 @@
+{
+  "name": "testing-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:singlerun": "vitest run",
+    "test:coverage": "vitest --coverage",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vitest": "^3.0.7"
+  },
+  "dependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3"
+  },
+  "lint-staged": {
+    "*.js": "vitest related"
+  }
+}
